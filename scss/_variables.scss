@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+$mainTextColor: #fff;
+
+@mixin font_16-400() {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@mixin font_32-700() {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+@mixin flex_center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin font_24($font_weight) {
+    font-size: 24px;
+}
+
+@mixin container() {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    padding-left: 7%;
+}
+
+
+@mixin cards_font() {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+@mixin light_gray_font() {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
