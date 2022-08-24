@@ -52,7 +52,7 @@ body {
     url('../images/background.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 100%;
+    width: 100.1%;
     display: flex;
     justify-content: center;
     position: relative;
@@ -60,7 +60,7 @@ body {
     .content {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 100.1%;
         padding: 0% 8%;
 
         .h1 {
@@ -168,7 +168,7 @@ body {
     display: block;
 
     .secondSection {
-        width: 100%;
+        width: 100.1%;
         display: flex;
         justify-content: center;
 
@@ -215,7 +215,7 @@ body {
     }
 
     .thirdSection {
-        width: 100%;
+        width: 100.1%;
         display: flex;
         justify-content: center;
 
@@ -289,7 +289,7 @@ body {
     }
 
     .fourthSection {
-        width: 100%;
+        width: 100.1%;
         display: flex;
         justify-content: center;
 
@@ -335,7 +335,7 @@ body {
     }
 
     .fifthSection {
-        width: 100%;
+        width: 100.1%;
         display: flex;
         justify-content: center;
 
@@ -375,7 +375,7 @@ body {
     }
 
     .sixsSection {
-        width: 100%;
+        width: 100.1%;
         display: flex;
         justify-content: center;
 
@@ -423,6 +423,7 @@ body {
             }
         }
     }
+
     .sevensSection {
         background: url('../images/image 21.png');
         background-repeat: no-repeat;
@@ -431,72 +432,72 @@ body {
         display: flex;
         justify-content: center;
         margin-top: 139px;
-    
-    
+
+
         .content {
             display: flex;
             flex-direction: column;
-            width: 100%;
+            width: 100.1%;
             padding: 0% 8%;
             color: $mainTextColor;
             display: flex;
             flex-direction: row;
             margin-top: 78px;
-    
+
             .phonePic {
                 display: flex;
                 align-items: end;
                 margin-right: 79px;
             }
-    
+
             .info {
                 display: flex;
                 flex-direction: column;
-    
+
                 .text {
                     font-size: 48px;
                     font-weight: 700;
                     margin-bottom: 24px;
                 }
-    
+
                 .description {
                     font-size: 24px;
                     font-weight: 400;
                     margin-bottom: 32px;
                 }
-    
-    
+
+
                 .cta {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
                     flex-wrap: wrap;
-    
+
                     .data {
                         display: flex;
                         flex-direction: column;
                         justify-content: flex-start;
-    
+
                         .type {
                             display: flex;
-    
+
                             .btn {
                                 padding: 8px 16px;
                                 border-radius: 13px;
                             }
-    
+
                             .btn.active {
                                 background: rgba(255, 255, 255, 0.4);
                                 backdrop-filter: blur(32px);
                             }
                         }
-    
+
                         .prompt {
                             font-size: 14px;
                             font-weight: 400;
                             margin: 16px 0px;
                         }
-    
+
                         .spaseForData {
                             display: flex;
                             justify-content: space-between;
@@ -504,18 +505,18 @@ body {
                             backdrop-filter: blur(32px);
                             padding: 8px 16px;
                             border-radius: 13px;
-    
+
                             .phoneNumber {
                                 display: flex;
                                 @include light_gray_font;
                                 color: rgba(255, 255, 255, 0.4);
                                 @include flex_center;
-    
+
                                 .code {
                                     margin-right: 8px;
                                 }
                             }
-    
+
                             .button {
                                 height: 42px;
                                 width: 188px;
@@ -528,31 +529,31 @@ body {
                             }
                         }
                     }
-    
+
                     .separator {
                         display: flex;
                         flex-direction: column;
                         align-items: center;
                         margin: 0px 42px;
-    
+
                         .line {
                             width: 1px;
                             height: 51px;
                             background: rgba(255, 255, 255, 0.4);
                         }
-    
+
                         .text {
                             @include light_gray_font;
                             color: $mainTextColor;
                             margin: 10px 0px;
                         }
                     }
-    
+
                     .getApp {
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
-    
+
                         .card {
                             width: 202px;
                             height: 60px;
@@ -564,19 +565,19 @@ body {
                             justify-content: space-between;
                             margin: 10px;
                             border: 1px solid #808080;
-    
+
                             .logo {
                                 @include flex_center;
                             }
-    
+
                             .appInfo {
                                 margin-left: 6px;
-    
+
                                 .what {
                                     font-size: 20px;
                                     font-weight: 400;
                                 }
-    
+
                                 .where {
                                     font-size: 30px;
                                     font-weight: 700;
@@ -586,13 +587,15 @@ body {
                     }
                 }
             }
-    
-    
+
+
         }
     }
 }
+
 .changeOn {
     display: none;
+
     .firstSection {
         header {
             display: flex;
@@ -1523,14 +1526,16 @@ body {
 
 
 
-    .sevensSection {
-        .content {
-            .info {
-                .cta {
-                    .data {
-                        .spaseForData {
-                            .mobBtn {
-                                display: none;
+    .haveToChange {
+        .sevensSection {
+            .content {
+                .info {
+                    .cta {
+                        .data {
+                            .spaseForData {
+                                .mobBtn {
+                                    display: none;
+                                }
                             }
                         }
                     }
@@ -1561,26 +1566,81 @@ body {
             }
 
         }
+
+        .sevensSection {
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, transparent 60%), url('../images/otherbg.jpg');
+            background-size: cover;
+
+            .content {
+
+                .info {
+
+                    .cta {
+                        .separator {
+                            display: none;
+                        }
+                    }
+                }
+
+
+            }
+        }
     }
 
-    .sevensSection {
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, transparent 60%), url('../images/otherbg.jpg');
-        background-size: cover;
+    .changeOn {
+        .secondSection {
+            .container {
+                .cards {
+                    .card {
+                        .picture {
+                            display: flex;
+                            justify-content: center;
 
-        .content {
-
-            .info {
-
-                .cta {
-                    .separator {
-                        display: none;
+                            img {
+                                width: 290px;
+                            }
+                        }
                     }
                 }
             }
+        }
 
+        .fourthSection {
+            .container {
+                .cards {
+                    .card {
+                        .picture {
+                            display: flex;
+                            justify-content: center;
 
+                            img {
+                                width: 290px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .fifthSection {
+            .container {
+                .cards {
+                    .card {
+                        .picture {
+                            display: flex;
+                            justify-content: center;
+
+                            img {
+                                width: 290px;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
+
+
 
     .footer {
         .container {
@@ -1638,6 +1698,28 @@ body {
         }
     }
 
+    .changeOn {
+        .secondSection {
+            .container {
+                margin-top: 42px;
+
+                .h2 {
+                    color: #000;
+                }
+            }
+        }
+
+        .thirdSection {
+            .container {
+                .cards {
+                    .backgr {
+                        margin-top: 24px;
+                    }
+                }
+            }
+        }
+    }
+
     .footer {
         .container {
             .fullInfo {
@@ -1652,9 +1734,6 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-
-
-
 
     .haveToChange {
         .fifthSection {
@@ -1688,26 +1767,390 @@ body {
             }
 
         }
-    }
 
-    .sevensSection {
-        .content {
-            .phonePic {
-                display: none;
+        .sevensSection {
+            .content {
+                .phonePic {
+                    display: none;
+                }
+
+                .info {
+                    margin-bottom: 75px;
+
+                    .cta {
+                        .separator {
+                            display: none;
+                        }
+                    }
+                }
             }
 
-            .info {
-                margin-bottom: 75px;
+        }
+    }
 
-                .cta {
-                    .separator {
-                        display: none;
+    .changeOn {
+        .secondSection {
+            .container {
+                .cards {
+                    .card {
+                        .picture {
+                            margin-bottom: 22px;
+
+                            img {
+                                border-radius: 14px;
+                                width: 260px;
+                            }
+                        }
+
+                        .placeName {
+                            .name {
+                                font-size: 22px;
+                            }
+
+                            .grade {
+                                .numb {
+                                    font-size: 22px;
+                                }
+                            }
+
+                        }
+
+                        .amountOfDays {
+                            font-size: 14px;
+                            margin-bottom: 22px;
+                        }
+
+                        .roadInf {
+                            margin-bottom: 22px;
+
+                            .smallCard {
+
+                                .pic {
+                                    padding: 9px;
+                                }
+
+                                .text {
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+
+                        .list {
+                            .row {
+                                .dot {
+                                    margin-right: 9px;
+                                }
+
+                                .text {
+                                    font-size: 10px;
+                                    margin-bottom: 6px;
+                                }
+                            }
+                        }
+
+                        .priceInfo {
+                            margin-bottom: 6px;
+
+                            .Price {
+                                .oldPrice {
+                                    text-decoration: line-through;
+                                    font-size: 14px;
+                                    font-weight: 100;
+                                    margin-right: 22px;
+                                }
+
+                                .newPrice {
+                                    font-size: 22px;
+                                }
+                            }
+
+                            .text {
+                                margin-left: 6px;
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: rgba(0, 0, 0, 0.5);
+                                display: flex;
+                                align-items: flex-end;
+                            }
+                        }
                     }
                 }
             }
         }
 
+        .thirdSection {
+            .container {
+                .cards {
+                    .card {
+                        .picture {
+                            margin-bottom: 22px;
+
+                            img {
+                                border-radius: 14px;
+                                width: 260px;
+                            }
+                        }
+
+                        .placeName {
+                            .name {
+                                font-size: 22px;
+                            }
+
+                            .grade {
+                                .numb {
+                                    font-size: 22px;
+                                }
+                            }
+
+                        }
+
+                        .amountOfDays {
+                            font-size: 14px;
+                            margin-bottom: 22px;
+                        }
+
+                        .roadInf {
+                            margin-bottom: 22px;
+
+                            .smallCard {
+
+                                .pic {
+                                    padding: 9px;
+                                }
+
+                                .text {
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+
+                        .list {
+                            .row {
+                                .dot {
+                                    margin-right: 9px;
+                                }
+
+                                .text {
+                                    font-size: 10px;
+                                    margin-bottom: 6px;
+                                }
+                            }
+                        }
+
+                        .priceInfo {
+                            margin-bottom: 6px;
+
+                            .Price {
+                                .oldPrice {
+                                    text-decoration: line-through;
+                                    font-size: 14px;
+                                    font-weight: 100;
+                                    margin-right: 22px;
+                                }
+
+                                .newPrice {
+                                    font-size: 22px;
+                                }
+                            }
+
+                            .text {
+                                margin-left: 6px;
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: rgba(0, 0, 0, 0.5);
+                                display: flex;
+                                align-items: flex-end;
+                            }
+                        }
+                    }
+
+                    .backgr {
+                        width: 378px;
+                    }
+                }
+            }
+        }
+
+        .fourthSection {
+            .container {
+                .cards {
+                    .card {
+                        .picture {
+                            margin-bottom: 22px;
+
+                            img {
+                                border-radius: 14px;
+                                width: 260px;
+                            }
+                        }
+
+                        .placeName {
+                            .name {
+                                font-size: 22px;
+                            }
+
+                            .grade {
+                                .numb {
+                                    font-size: 22px;
+                                }
+                            }
+
+                        }
+
+                        .amountOfDays {
+                            font-size: 14px;
+                            margin-bottom: 22px;
+                        }
+
+                        .roadInf {
+                            margin-bottom: 22px;
+
+                            .smallCard {
+
+                                .pic {
+                                    padding: 9px;
+                                }
+
+                                .text {
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+
+                        .list {
+                            .row {
+                                .dot {
+                                    margin-right: 9px;
+                                }
+
+                                .text {
+                                    font-size: 10px;
+                                    margin-bottom: 6px;
+                                }
+                            }
+                        }
+
+                        .priceInfo {
+                            margin-bottom: 6px;
+
+                            .Price {
+                                .oldPrice {
+                                    text-decoration: line-through;
+                                    font-size: 14px;
+                                    font-weight: 100;
+                                    margin-right: 22px;
+                                }
+
+                                .newPrice {
+                                    font-size: 22px;
+                                }
+                            }
+
+                            .text {
+                                margin-left: 6px;
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: rgba(0, 0, 0, 0.5);
+                                display: flex;
+                                align-items: flex-end;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .fifthSection {
+            .container {
+                .cards {
+                    .card {
+                        .picture {
+                            margin-bottom: 22px;
+
+                            img {
+                                border-radius: 14px;
+                                width: 260px;
+                            }
+                        }
+
+                        .placeName {
+                            .name {
+                                font-size: 22px;
+                            }
+
+                            .grade {
+                                .numb {
+                                    font-size: 22px;
+                                }
+                            }
+
+                        }
+
+                        .amountOfDays {
+                            font-size: 14px;
+                            margin-bottom: 22px;
+                        }
+
+                        .roadInf {
+                            margin-bottom: 22px;
+
+                            .smallCard {
+
+                                .pic {
+                                    padding: 9px;
+                                }
+
+                                .text {
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+
+                        .list {
+                            .row {
+                                .dot {
+                                    margin-right: 9px;
+                                }
+
+                                .text {
+                                    font-size: 10px;
+                                    margin-bottom: 6px;
+                                }
+                            }
+                        }
+
+                        .priceInfo {
+                            margin-bottom: 6px;
+
+                            .Price {
+                                .oldPrice {
+                                    text-decoration: line-through;
+                                    font-size: 14px;
+                                    font-weight: 100;
+                                    margin-right: 22px;
+                                }
+
+                                .newPrice {
+                                    font-size: 22px;
+                                }
+                            }
+
+                            .text {
+                                margin-left: 6px;
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: rgba(0, 0, 0, 0.5);
+                                display: flex;
+                                align-items: flex-end;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
+
+
 
     .footer {
         .container {
@@ -1755,45 +2198,47 @@ body {
                 height: 225px;
             }
         }
-    }
 
-    .sevensSection {
-        .content {
-            .info {
-                margin-bottom: 75px;
+        .sevensSection {
+            .content {
+                .info {
+                    margin-bottom: 75px;
 
-                .cta {
-                    .getApp {
-                        .card {
-                            flex-direction: row;
-                            padding: 10px 15px;
-                            width: 180px;
-                            height: 44px;
-                            justify-content: flex-start;
+                    .cta {
+                        .getApp {
+                            .card {
+                                flex-direction: row;
+                                padding: 10px 15px;
+                                width: 180px;
+                                height: 44px;
+                                justify-content: flex-start;
 
-                            .logo {
-                                margin-right: 10px;
-                            }
-
-                            .appInfo {
-                                .what {
-                                    font-size: 16px;
-                                    font-weight: 500;
+                                .logo {
+                                    margin-right: 10px;
                                 }
 
-                                .where {
-                                    font-size: 20px;
-                                    font-weight: 700;
+                                .appInfo {
+                                    .what {
+                                        font-size: 16px;
+                                        font-weight: 500;
+                                    }
+
+                                    .where {
+                                        font-size: 20px;
+                                        font-weight: 700;
+                                    }
                                 }
                             }
+
                         }
-
                     }
                 }
             }
-        }
 
+        }
     }
+
+
 
 
     .footer {
@@ -2078,32 +2523,32 @@ body {
                 height: 161px;
             }
         }
-    }
 
-    .sevensSection {
-        .content {
-            .info {
-                .cta {
-                    .data {
-                        .spaseForData {
-                            .button {
-                                width: 160px;
+        .sevensSection {
+            .content {
+                .info {
+                    .cta {
+                        .data {
+                            .spaseForData {
+                                .button {
+                                    width: 160px;
+                                }
                             }
                         }
-                    }
 
-                    .getApp {
-                        .card {
-                            width: 160px;
+                        .getApp {
+                            .card {
+                                width: 160px;
 
-                            .appInfo {
+                                .appInfo {
 
-                                .what {
-                                    font-size: 15px;
-                                }
+                                    .what {
+                                        font-size: 15px;
+                                    }
 
-                                .where {
-                                    font-size: 20px;
+                                    .where {
+                                        font-size: 20px;
+                                    }
                                 }
                             }
                         }
@@ -2112,6 +2557,8 @@ body {
             }
         }
     }
+
+
 
     .footer {
         .container {
@@ -2283,54 +2730,88 @@ body {
                 }
             }
         }
-    }
 
-
-    .sevensSection {
-        margin-top: 50px;
-
-        .content {
+        .sevensSection {
             margin-top: 50px;
 
-            .info {
-                margin-bottom: 50px;
+            .content {
+                margin-top: 50px;
 
-                .text {
-                    @include font_32-700;
-                }
+                .info {
+                    margin-bottom: 50px;
 
-                .description {
-                    font-size: 20px;
-                    font-weight: 400;
-                }
-
-                .cta {
-                    justify-content: center;
-
-                    .data {
-                        .spaseForData {
-                            margin-bottom: 10px;
-                        }
+                    .text {
+                        @include font_32-700;
                     }
 
-                    .getApp {
-                        flex-direction: row;
-                        justify-content: center;
-                        flex-wrap: wrap;
+                    .description {
+                        font-size: 20px;
+                        font-weight: 400;
+                    }
 
-                        .card {
-                            margin: 5px;
+                    .cta {
+                        justify-content: center;
+
+                        .data {
+                            .spaseForData {
+                                margin-bottom: 10px;
+                            }
                         }
 
-                        .card.last {
-                            margin-left: 0px;
+                        .getApp {
+                            flex-direction: row;
+                            justify-content: center;
+                            flex-wrap: wrap;
+
+                            .card {
+                                margin: 5px;
+                            }
+
+                            .card.last {
+                                margin-left: 0px;
+                            }
                         }
                     }
                 }
             }
+
+        }
+    }
+
+    .changeOn {
+        .secondSection {
+            .container {
+                .h2 {
+                    font-size: 28px;
+                }
+            }
         }
 
+        .thirdSection {
+            .container {
+                .h2 {
+                    font-size: 28px;
+                }
+            }
+        }
+
+        .fourthSection {
+            .container {
+                .h2 {
+                    font-size: 28px;
+                }
+            }
+        }
+
+        .fifthSection {
+            .container {
+                .h2 {
+                    font-size: 28px;
+                }
+            }
+        }
     }
+
 
     .footer {
         .container {
@@ -2455,55 +2936,128 @@ body {
                 }
             }
         }
-    }
 
-    .sevensSection {
-        .content {
-            .info {
+        .sevensSection {
+            .content {
+                .info {
 
 
-                .cta {
-                    .data {
-                        .spaseForData {
-                            align-items: center;
-                            justify-content: space-between;
-                            flex-wrap: wrap;
-                            margin-bottom: 5px;
+                    .cta {
+                        .data {
+                            .spaseForData {
+                                align-items: center;
+                                justify-content: space-between;
+                                flex-wrap: wrap;
+                                margin-bottom: 5px;
 
-                            .button {
-                                display: none;
+                                .button {
+                                    display: none;
+                                }
+
+                                .mobBtn {
+                                    display: flex;
+                                }
+                            }
+                        }
+
+                        .getApp {
+                            .card {
+                                padding: 5px 10px;
+                                width: 147px;
+                                height: 34px;
+                                justify-content: space-around;
+
+                                .logo {
+                                    margin-right: 0px;
+                                }
+
+                                .appInfo {
+                                    .what {
+                                        font-size: 11px;
+                                        font-weight: 300;
+                                    }
+
+                                    .where {
+                                        font-size: 16px;
+                                        font-weight: 300;
+                                    }
+                                }
                             }
 
-                            .mobBtn {
-                                display: flex;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .changeOn {
+        .secondSection {
+            .container {
+                .cards {
+                    .card {
+                        margin-right: 8px;
+
+                        .picture {
+
+                            img {
+                                width: 226px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .thirdSection {
+            .container {
+                .cards {
+                    .card {
+                        margin-right: 8px;
+
+                        .picture {
+                            img {
+                                width: 226px;
                             }
                         }
                     }
 
-                    .getApp {
-                        .card {
-                            padding: 5px 10px;
-                            width: 147px;
-                            height: 34px;
-                            justify-content: space-around;
+                    .backgr {
+                        width: 326px;
+                    }
+                }
+            }
+        }
 
-                            .logo {
-                                margin-right: 0px;
-                            }
+        .fourthSection {
+            .container {
+                .cards {
+                    .card {
+                        margin-right: 8px;
 
-                            .appInfo {
-                                .what {
-                                    font-size: 11px;
-                                    font-weight: 300;
-                                }
-
-                                .where {
-                                    font-size: 16px;
-                                    font-weight: 300;
-                                }
+                        .picture {
+                            img {
+                                width: 226px;
                             }
                         }
 
+                    }
+                }
+            }
+        }
+
+        .fifthSection {
+            .container {
+                .cards {
+                    .card {
+                        margin-right: 8px;
+
+                        .picture {
+                            img {
+                                border-radius: 14px;
+                                width: 226px;
+                            }
+                        }
                     }
                 }
             }
@@ -2552,582 +3106,3 @@ body {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen {
-
-}
-
-// @media screen and (max-width: 1360px) {
-//     .changeOn {
-//         .secondSection {
-//             .container {
-//                 .cards {
-//                     .card {
-//                         .picture {
-//                             display: flex;
-//                             justify-content: center;
-
-//                             img {
-//                                 width: 290px;
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-
-//         .fourthSection {
-//             .container {
-//                 .cards {
-//                     .card {
-//                         .picture {
-//                             display: flex;
-//                             justify-content: center;
-
-//                             img {
-//                                 width: 290px;
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-
-//         .fifthSection {
-//             .container {
-//                 .cards {
-//                     .card {
-//                         .picture {
-//                             display: flex;
-//                             justify-content: center;
-
-//                             img {
-//                                 width: 290px;
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     }
-
-
-// }
-
-// @media screen and (max-width: 1193px) {
-
-//     .changeOn {
-//         .secondSection {
-//             .container {
-//                 margin-top: 42px;
-
-//                 .h2 {
-//                     color: #000;
-//                 }
-//             }
-//         }
-
-//         .thirdSection {
-//             .container {
-//                 .cards {
-//                     .backgr {
-//                         margin-top: 24px;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-
-// }
-
-// @media screen and (max-width: 1000px) {
-//     .changeOn {
-//         .secondSection {
-//             .container {
-//                 .cards {
-//                     .card {
-//                         .picture {
-//                             margin-bottom: 22px;
-
-//                             img {
-//                                 border-radius: 14px;
-//                                 width: 260px;
-//                             }
-//                         }
-
-//                         .placeName {
-//                             .name {
-//                                 font-size: 22px;
-//                             }
-
-//                             .grade {
-//                                 .numb {
-//                                     font-size: 22px;
-//                                 }
-//                             }
-
-//                         }
-
-//                         .amountOfDays {
-//                             font-size: 14px;
-//                             margin-bottom: 22px;
-//                         }
-
-//                         .roadInf {
-//                             margin-bottom: 22px;
-
-//                             .smallCard {
-
-//                                 .pic {
-//                                     padding: 9px;
-//                                 }
-
-//                                 .text {
-//                                     font-size: 10px;
-//                                 }
-//                             }
-//                         }
-
-//                         .list {
-//                             .row {
-//                                 .dot {
-//                                     margin-right: 9px;
-//                                 }
-
-//                                 .text {
-//                                     font-size: 10px;
-//                                     margin-bottom: 6px;
-//                                 }
-//                             }
-//                         }
-
-//                         .priceInfo {
-//                             margin-bottom: 6px;
-
-//                             .Price {
-//                                 .oldPrice {
-//                                     text-decoration: line-through;
-//                                     font-size: 14px;
-//                                     font-weight: 100;
-//                                     margin-right: 22px;
-//                                 }
-
-//                                 .newPrice {
-//                                     font-size: 22px;
-//                                 }
-//                             }
-
-//                             .text {
-//                                 margin-left: 6px;
-//                                 font-size: 12px;
-//                                 font-weight: 400;
-//                                 color: rgba(0, 0, 0, 0.5);
-//                                 display: flex;
-//                                 align-items: flex-end;
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-
-//         .thirdSection {
-//             .container {
-//                 .cards {
-//                     .card {
-//                         .picture {
-//                             margin-bottom: 22px;
-
-//                             img {
-//                                 border-radius: 14px;
-//                                 width: 260px;
-//                             }
-//                         }
-
-//                         .placeName {
-//                             .name {
-//                                 font-size: 22px;
-//                             }
-
-//                             .grade {
-//                                 .numb {
-//                                     font-size: 22px;
-//                                 }
-//                             }
-
-//                         }
-
-//                         .amountOfDays {
-//                             font-size: 14px;
-//                             margin-bottom: 22px;
-//                         }
-
-//                         .roadInf {
-//                             margin-bottom: 22px;
-
-//                             .smallCard {
-
-//                                 .pic {
-//                                     padding: 9px;
-//                                 }
-
-//                                 .text {
-//                                     font-size: 10px;
-//                                 }
-//                             }
-//                         }
-
-//                         .list {
-//                             .row {
-//                                 .dot {
-//                                     margin-right: 9px;
-//                                 }
-
-//                                 .text {
-//                                     font-size: 10px;
-//                                     margin-bottom: 6px;
-//                                 }
-//                             }
-//                         }
-
-//                         .priceInfo {
-//                             margin-bottom: 6px;
-
-//                             .Price {
-//                                 .oldPrice {
-//                                     text-decoration: line-through;
-//                                     font-size: 14px;
-//                                     font-weight: 100;
-//                                     margin-right: 22px;
-//                                 }
-
-//                                 .newPrice {
-//                                     font-size: 22px;
-//                                 }
-//                             }
-
-//                             .text {
-//                                 margin-left: 6px;
-//                                 font-size: 12px;
-//                                 font-weight: 400;
-//                                 color: rgba(0, 0, 0, 0.5);
-//                                 display: flex;
-//                                 align-items: flex-end;
-//                             }
-//                         }
-//                     }
-
-//                     .backgr {
-//                         width: 378px;
-//                     }
-//                 }
-//             }
-//         }
-
-//         .fourthSection {
-//             .container {
-//                 .cards {
-//                     .card {
-//                         .picture {
-//                             margin-bottom: 22px;
-
-//                             img {
-//                                 border-radius: 14px;
-//                                 width: 260px;
-//                             }
-//                         }
-
-//                         .placeName {
-//                             .name {
-//                                 font-size: 22px;
-//                             }
-
-//                             .grade {
-//                                 .numb {
-//                                     font-size: 22px;
-//                                 }
-//                             }
-
-//                         }
-
-//                         .amountOfDays {
-//                             font-size: 14px;
-//                             margin-bottom: 22px;
-//                         }
-
-//                         .roadInf {
-//                             margin-bottom: 22px;
-
-//                             .smallCard {
-
-//                                 .pic {
-//                                     padding: 9px;
-//                                 }
-
-//                                 .text {
-//                                     font-size: 10px;
-//                                 }
-//                             }
-//                         }
-
-//                         .list {
-//                             .row {
-//                                 .dot {
-//                                     margin-right: 9px;
-//                                 }
-
-//                                 .text {
-//                                     font-size: 10px;
-//                                     margin-bottom: 6px;
-//                                 }
-//                             }
-//                         }
-
-//                         .priceInfo {
-//                             margin-bottom: 6px;
-
-//                             .Price {
-//                                 .oldPrice {
-//                                     text-decoration: line-through;
-//                                     font-size: 14px;
-//                                     font-weight: 100;
-//                                     margin-right: 22px;
-//                                 }
-
-//                                 .newPrice {
-//                                     font-size: 22px;
-//                                 }
-//                             }
-
-//                             .text {
-//                                 margin-left: 6px;
-//                                 font-size: 12px;
-//                                 font-weight: 400;
-//                                 color: rgba(0, 0, 0, 0.5);
-//                                 display: flex;
-//                                 align-items: flex-end;
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-
-//         .fifthSection {
-//             .container {
-//                 .cards {
-//                     .card {
-//                         .picture {
-//                             margin-bottom: 22px;
-
-//                             img {
-//                                 border-radius: 14px;
-//                                 width: 260px;
-//                             }
-//                         }
-
-//                         .placeName {
-//                             .name {
-//                                 font-size: 22px;
-//                             }
-
-//                             .grade {
-//                                 .numb {
-//                                     font-size: 22px;
-//                                 }
-//                             }
-
-//                         }
-
-//                         .amountOfDays {
-//                             font-size: 14px;
-//                             margin-bottom: 22px;
-//                         }
-
-//                         .roadInf {
-//                             margin-bottom: 22px;
-
-//                             .smallCard {
-
-//                                 .pic {
-//                                     padding: 9px;
-//                                 }
-
-//                                 .text {
-//                                     font-size: 10px;
-//                                 }
-//                             }
-//                         }
-
-//                         .list {
-//                             .row {
-//                                 .dot {
-//                                     margin-right: 9px;
-//                                 }
-
-//                                 .text {
-//                                     font-size: 10px;
-//                                     margin-bottom: 6px;
-//                                 }
-//                             }
-//                         }
-
-//                         .priceInfo {
-//                             margin-bottom: 6px;
-
-//                             .Price {
-//                                 .oldPrice {
-//                                     text-decoration: line-through;
-//                                     font-size: 14px;
-//                                     font-weight: 100;
-//                                     margin-right: 22px;
-//                                 }
-
-//                                 .newPrice {
-//                                     font-size: 22px;
-//                                 }
-//                             }
-
-//                             .text {
-//                                 margin-left: 6px;
-//                                 font-size: 12px;
-//                                 font-weight: 400;
-//                                 color: rgba(0, 0, 0, 0.5);
-//                                 display: flex;
-//                                 align-items: flex-end;
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     }
-
-// }
-
-// @media screen and (max-width: 500px) {
-
-//     .changeOn {
-//         .secondSection {
-//             .container {
-//                 .h2 {
-//                     font-size: 28px;
-//                 }
-//             }
-//         }
-
-//         .thirdSection {
-//             .container {
-//                 .h2 {
-//                     font-size: 28px;
-//                 }
-//             }
-//         }
-
-//         .fourthSection {
-//             .container {
-//                 .h2 {
-//                     font-size: 28px;
-//                 }
-//             }
-//         }
-
-//         .fifthSection {
-//             .container {
-//                 .h2 {
-//                     font-size: 28px;
-//                 }
-//             }
-//         }
-//     }
-
-
-// }
-
-// @media screen and (max-width: 400px) {
-
-
-//     .changeOn{.secondSection {
-//         .container {
-//             .cards {
-//                 .card {
-//                     margin-right: 8px;
-
-//                     .picture {
-
-//                         img {
-//                             width: 226px;
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     }
-
-//     .thirdSection {
-//         .container {
-//             .cards {
-//                 .card {
-//                     margin-right: 8px;
-
-//                     .picture {
-//                         img {
-//                             width: 226px;
-//                         }
-//                     }
-//                 }
-
-//                 .backgr {
-//                     width: 326px;
-//                 }
-//             }
-//         }
-//     }
-
-//     .fourthSection {
-//         .container {
-//             .cards {
-//                 .card {
-//                     margin-right: 8px;
-
-//                     .picture {
-//                         img {
-//                             width: 226px;
-//                         }
-//                     }
-
-//                 }
-//             }
-//         }
-//     }
-
-//     .fifthSection {
-//         .container {
-//             .cards {
-//                 .card {
-//                     margin-right: 8px;
-
-//                     .picture {
-//                         img {
-//                             border-radius: 14px;
-//                             width: 226px;
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     }}
-
-// }
