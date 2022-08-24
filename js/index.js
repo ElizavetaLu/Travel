@@ -615,8 +615,19 @@ const buttom = document.getElementById('action');
 const block1 = document.querySelector('.haveToChange');
 const block2 = document.querySelector('.changeOn');
 
-
 buttom.onclick = function(){
   block2.style.display = "block";
   block1.style.display = "none";
+}
+
+
+
+const buttom2 = document.getElementById('back');
+const block12 = document.querySelector('.haveToChange');
+const block22 = document.querySelector('.changeOn');
+
+
+buttom2.onclick = function(){
+  block22.style.display = "none";
+  block12.style.display = "block";
 }
