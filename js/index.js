@@ -257,7 +257,7 @@ const generateDestinationsCard = (picture, name, rating, days, nights, flights, 
     return `
         <div class="card">
                     <div class="picture">
-                        <img src="${picture}" alt="" class="" width="310px" height="200px">
+                        <img src="${picture}" alt="" class="">
                     </div>
 
                     <div class="placeName">
